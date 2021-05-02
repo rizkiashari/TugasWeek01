@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Case</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="back">
+    <a href="../../index.html">
+    Back Menu</a>
+  </div>
+  <div class="container">
+    
+    <div class="container-convert">
+      <div class="range">
+        <h2>Nama</h2>
+        <h3>Bayi</h3>
+        <h3>Anak - anak</h3>
+        <h3>Remaja</h3>
+        <h3>Dewasa</h3>
+        <h3>Lanjut Usia</h3>
+      </div>
+      <div class="nilai">
+        <h2>Umur / Tahun</h2>
+        <h3>0 - 1</h3>
+        <h3>2 - 10</h3>
+        <h3>11 - 19</h3>
+        <h3>20 - 60</h3>
+        <h3>> 60</h3>
+      </div>
+    </div>
+    <div class="regular">
+      <div class="pilih-jenis">
+        <h3>Inputan Umurmu</h3>
+        <input type="number" class="text-input" id="usia-input" placeholder="7">
+      </div>
+      <div>
+        <button type="submit" class="btn-primary" onclick="cekAge()">Clik me</button>
+      </div>
+    </div>
+    <div class="output">
+      Usia saat ini<p id="output-umur"></p>
+    </div>
+  </div>
+  <script src="./studyCase.js"></script>
+</body>
+</html>

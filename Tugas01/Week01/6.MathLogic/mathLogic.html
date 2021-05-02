@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Logic</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="back">
+    <a href="../../index.html">
+    Back Menu</a>
+  </div>
+  <div class="container">
+    <div class="container-convert">
+      <div class="range">
+        <h2>Golongan</h2>
+        <h3>A</h3>
+        <h3>B</h3>
+        <h3>C</h3>
+        <h3>D</h3>
+      </div>
+      <div class="nilai">
+        <h2>Gaji / Jam</h2>
+        <h3>1000</h3>
+        <h3>2000</h3>
+        <h3>3000</h3>
+        <h3>4000</h3>
+      </div>
+    </div>
+    <div class="name-pegawai">
+      <h3>Name</h3>
+      <input type="text" class="text-input" id="name-input">
+    </div>
+    <div class="golongan">
+      <h3>Golongan</h3>
+      <select id="golongan-input" class="text-input">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+    </div>
+    <div class="time">
+      <h3>How long worked?</h3>
+      <input type="number" class="text-input" id="time-input">
+    </div>
+    <div>
+      <button type="submit" class="btn-primary" onclick="salary()">Click Me</button>
+    </div>
+    <div class="output">
+      Output: 
+    </div>
+    <p id="convert-output"></p>
+  </div>
+  <script src="./mathLogic.js"></script>
+</body>
+</html>

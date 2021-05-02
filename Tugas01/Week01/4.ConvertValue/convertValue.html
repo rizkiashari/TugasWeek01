@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert Value</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="back">
+    <a href="../../index.html">
+    Back Menu</a>
+  </div>
+  <div class="container">
+    <div class="container-convert">
+      <div class="range">
+        <h2>Range</h2>
+        <h3>86 - 100</h3>
+        <h3>70 - 85</h3>
+        <h3>50 - 69</h3>
+        <h3>30 - 49</h3>
+        <h3>0 - 29</h3>
+      </div>
+      <div class="nilai">
+        <h2>Class</h2>
+        <h3>A</h3>
+        <h3>B</h3>
+        <h3>C</h3>
+        <h3>D</h3>
+        <h3>E</h3>
+      </div>
+    </div>
+    <div class="range">
+      <h2>Convert Value</h2>
+      <input type="number" class="text-input convert_in" id="convert-input" placeholder="any something">
+    </div>
+    <div>
+      <button type="submit" class="btn-primary" onclick="convertValue(event.target.value)">Click Me</button>
+    </div>
+    <div class="output">
+      Output: <p id="convert-output"></p>
+    </div>
+  </div>
+
+  <script src="./convertValue.js"></script>
+</body>
+</html>

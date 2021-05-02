@@ -1,0 +1,226 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f3f3;
+}
+
+
+/* Content */
+.container-tasks{
+  display: flex;
+  margin: 30px;
+  align-content: center;
+  justify-content: center;
+}
+
+.content-tasks{
+  display: flex;
+}
+
+.container-tasks h2{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content-tasks .task-title h3{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.content-tasks .tugas-link{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.content-tasks .tugas-link a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 123, 35);
+  padding: 7px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* All Task */
+.container{
+  display: flex;
+  margin: 5% auto;
+  width: 50%;
+  flex-direction: column;
+  padding: 10px 10%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  min-height: 75vh;
+  padding-bottom: 20px;
+}
+
+.text-input{
+  height: 42px;
+  line-height: 30px;
+  width: 99.2%;
+  font-size: 18px;
+  border: 2px solid #f7b731;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.btn-primary {
+  background: #fe4e30;
+  height: 42px;
+  padding: 0 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background: #da2a0b;
+}
+
+.back{
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 27%;
+}
+
+.back a{
+  text-decoration: none;
+  color: #fe4e30;
+  font-size: 12px;
+}
+
+/* Function */
+
+.regular{
+  margin: 50px 0;
+}
+
+.regular h3, .arrow h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.arrow h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.output{
+  display: flex;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.output p{
+  margin-left: 10px;
+}
+
+/* Looping */
+.Looping{
+  margin-top: 30px;
+}
+
+.Looping h3{
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Convert Value */
+.container-convert{
+  display: flex;
+  flex-direction: row;
+  margin: 20% auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-convert .range, .container-convert .nilai{
+  padding: 5px;
+  text-align: center;
+}
+
+.range{
+  margin-right: 20px;
+}
+
+.range h2, .nilai h2{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.range h3, .nilai h3{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.convert_in{
+  width: 105.5%;
+}
+
+
+/* Temperature */
+
+.container-content{
+  margin-top: 20%;
+}
+
+.pilih-jenis, .suhu{
+  margin-bottom: 10px;
+}
+
+.pilih-jenis h3, .suhu h3{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Math Logic */
+.name-pegawai, .golongan, .time{
+  margin-top: 10px;
+}
+.name-pegawai h3, .golongan h3, .time h3{
+  font-weight: 500;
+  font-size: 15px;
+}
+.time{
+  margin-bottom: 3px;
+}
+/* Counting Letters */
+.sentences{
+  margin-top: 20%;
+}
+
+.sentences h3, .find-letter h3{
+  font-weight: 400;
+  font-size: 18px;
+}
+.find-letter{
+  margin: 20px 0;
+}
+
+/* Math logic */
+
+#convert-output{
+  margin-left: 20%;
+  font-size: 14px;
+  color: #313836;
+  margin-bottom: 5px;
+  font-weight: 600;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}

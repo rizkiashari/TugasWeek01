@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert Temperature</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="back">
+    <a href="../../index.html">
+    Back Menu</a>
+  </div>
+  <div class="container">
+    <div class="container-content">
+      <div class="pilih-jenis">
+        <h3>Suhu Sekarang</h3>
+        <select id="suhu-sekarang" class="text-input">
+          <option value="Reamur">Reamur</option>
+          <option value="Celcius">Celcius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+      </div>
+      <div class="suhu">
+        <h3>Inputkan Suhu</h3>
+        <input type="number" class="text-input" id="suhu-input" placeholder="30">
+      </div>
+      <div class="pilih-jenis">
+        <h3>Pilih Jenis Suhu Konversi</h3>
+        <select id="suhu-konversi" class="text-input">
+          <option value="Reamur">Reamur</option>
+          <option value="Celcius">Celcius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit" class="btn-primary" onclick="suhu()">Clik me</button>
+      </div>
+      <div class="output">
+        Hasil Konversi: <p id="output-suhu"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./convertSuhu.js"></script>
+</body>
+</html>

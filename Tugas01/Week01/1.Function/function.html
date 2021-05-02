@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Function</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div class="back">
+    <a href="../../index.html">
+    Back Menu</a>
+  </div>
+  <div class="container">
+    <div class="regular">
+      <div>
+        <h3>Regular Function</h3>
+        <input type="text" class="text-input" id="regular-input" >
+      </div>
+      <div>
+        <button type="submit" class="btn-primary" onclick="return sayHello(event.target.value)">Clik me</button>
+      </div>
+      <div class="output">
+        Output: <p id="output-reg"></p>
+      </div>
+      
+    </div>
+    
+    <div class="arrow">
+      <h3>Arrow Function</h3>
+      <input type="text" class="text-input" id="arrow-input" >
+      <div>
+        <button type="submit" class="btn-primary" onclick="sayPeople(event.target.value)">Clik me</button>
+      </div>
+      <div class="output">
+        Output: <p id="output-arrow"></p>
+      </div>
+      
+    </div>
+  </div>
+  <script src="./Function.js"></script>
+</body>
+</html>
+<!-- oninput="sayPeople(event.target.value)" -->
